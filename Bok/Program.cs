@@ -10,6 +10,14 @@ namespace Bok
     {
         static void Main(string[] args)
         {
+            Books bok1 = new Books();
+
+
+            bok1.skrivUt();
+
+            Console.ReadKey();
         }
+        
+
     }
 }
